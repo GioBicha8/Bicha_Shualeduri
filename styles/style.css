@@ -35,7 +35,6 @@
   margin-bottom: 15px;
 }
 .nav-links li :hover {
-  color: #cf238a;
   transition: 0.3s;
 }
 
@@ -74,13 +73,22 @@
 .header {
   display: flex;
 }
+
 .search-btn {
   margin-top: 30px;
   margin-left: 20px;
-  width: 550px;
+  width: 500px;
 }
 
 /* Navugation */
+.nav-links a:hover {
+  background: #cf238a;
+  transition: 0.3;
+  width: 170px;
+}
+.nav-links {
+  color: white;
+}
 .navbar {
   margin-left: 200px;
 }
@@ -141,4 +149,9 @@ ul {
 .image-3-3 p,
 .image-4-4 p {
   width: 200px;
+}
+.load {
+  margin-top: 40px;
+  margin-left: 500px;
+  font-size: 14px;
 }
