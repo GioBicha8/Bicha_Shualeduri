@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+.sidebar {
+  flex: 1 1 0;
+  max-width: 300px;
+  padding: 2rem 1rem;
+  background-color: black;
+}
+.sidebar h3 {
+  color: white;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+.sidebar menu {
+  margin: 0 -1rem;
+}
+.sidebar,
+.menu-item,
+.is-active {
+  display: block;
+  padding: 1em;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2 linear;
+}

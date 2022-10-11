@@ -3,9 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-header {
+
+.side-nav {
   background: rgb(22, 22, 22) 0% 0% no-repeat padding-box;
-  height: 1200px;
+  height: 1300px;
   width: 280px;
 }
 
@@ -69,4 +70,75 @@ header {
 
 .logo img {
   margin-top: 40px;
+}
+.header {
+  display: flex;
+}
+.search-btn {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 550px;
+}
+
+/* Navugation */
+.navbar {
+  margin-left: 200px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "BPG Arial Caps", sans-serif;
+  font-weight: 450;
+}
+ul {
+  list-style: none;
+}
+
+.navbar-ul {
+  display: flex;
+}
+
+.navbar-li {
+  margin: 20px;
+}
+.navbar-ul a {
+  text-decoration: none;
+  color: black;
+}
+.main-content {
+  margin-left: 80px;
+}
+/* MAIN_IMAGES */
+.main-content {
+  display: flex;
+}
+.image-1 p,
+.image-2 p,
+.image-3 p,
+.image-4 p {
+  margin-left: 25px;
+  font-size: 12px;
+  font-weight: 500;
+  width: 200px;
+}
+.image-3 p,
+.image-4 p {
+  width: 200px;
+}
+.main-content-2 {
+  display: flex;
+  margin-left: 80px;
+}
+.image-1-1 p,
+.image-2-2 p,
+.image-3-3 p,
+.image-4-4 p {
+  margin-left: 25px;
+  font-size: 12px;
+  font-weight: 500;
+  width: 200px;
+}
+.image-3-3 p,
+.image-4-4 p {
+  width: 200px;
 }
