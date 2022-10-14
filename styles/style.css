@@ -283,29 +283,13 @@
   font-weight: 700;
 }
 /* SEDOND HTML */
-.order-1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 40px;
-  margin-top: 40px;
-  font-weight: 600;
+.table {
+  margin-top: 50px;
+  margin-left: 70px;
 }
-
-.order-2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 40px;
-  margin-top: 40px;
+.table thead :hover {
+  background-color: #d1d1d1;
 }
-
-.order-1-1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 40px;
-  margin-top: 40px;
-  font-weight: 600;
-  color: #ff2288;
+.table tr :hover {
+  background-color: #e6e6e6;
 }
