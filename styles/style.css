@@ -15,6 +15,7 @@
 .logo {
   margin-left: 60px;
 }
+
 .nav-links {
   list-style: none;
   position: relative;
@@ -273,10 +274,9 @@
   margin-left: 72px;
 }
 .fot-cont {
-  display: flex;
   align-items: center;
   margin-left: 200px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 .fot-cont p {
   margin-left: 770px;
@@ -292,4 +292,76 @@
 }
 .table tr :hover {
   background-color: #e6e6e6;
+}
+
+@media (max-width: 1024px) {
+  .side-nav {
+    display: none;
+  }
+  .mess {
+    display: none;
+  }
+  .bell {
+    display: none;
+  }
+  .search-btn {
+    width: 200px;
+  }
+  .search-btn p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar-ul {
+    display: none;
+  }
+  .main-content {
+    width: 230px;
+
+    display: block;
+  }
+  .main-content-2 {
+    width: 230px;
+
+    display: block;
+  }
+  .load {
+    padding: 15px;
+    margin-left: 140px;
+    padding-right: 10px;
+    margin-top: 10px;
+  }
+  .design {
+    display: inline;
+    margin: 10px;
+  }
+  .table {
+    width: 10px;
+  }
+  .table {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 200px;
+  }
+  .paragraph-flex {
+    display: none;
+  }
+  .fot-cont {
+    display: inline;
+  }
+  .fot-cont p {
+    margin-top: -20px;
+    margin-left: 180px;
+    font-weight: 700;
+  }
+  .photo-img {
+    display: none;
+  }
+  .design {
+    display: flex;
+    align-items: center;
+  }
+  .design p {
+    display: none;
+    align-items: center;
+  }
 }
