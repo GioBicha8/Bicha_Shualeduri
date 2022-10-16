@@ -283,6 +283,15 @@
   font-weight: 700;
 }
 /* SEDOND HTML */
+.fot-cont-1 {
+  display: flex;
+  margin-left: -550px;
+  margin-top: 205px;
+}
+.fot-cont-1 p {
+  margin-left: 420px;
+  font-weight: 700;
+}
 .table {
   margin-top: 50px;
   margin-left: 70px;
